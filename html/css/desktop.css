@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(197, 195, 195, 0.16);
+    background-image: url("../img/VU.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5000px;
+}
+
+
+/*header*/
+.navbar{
+    text-transform: uppercase;
+    height: 36px;
+    min-height: 0;
+}
+
+.nav > li > a {
+    padding: 7px 15px;
+    transition: .5s;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li.active > a,
+.nav > li.active > a:hover{
+    background-color: transparent;
+    color: #e69317;
+}
+
+.nav > li > a:focus{
+}
