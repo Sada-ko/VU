@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "html",
+			"folder_exclude_patterns": [".idea"]
+		}
+	]
+}

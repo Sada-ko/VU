@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"fonw",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pat",
+				"padding-top"
+			],
+			[
+				"owl",
+				"owl-item-2.jpg\tw:500 h:564"
+			],
+			[
+				"tem",
+				"text-muted\t main.css"
+			],
+			[
+				"c",
+				"css"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"car",
+				"carousel-caption\t main.css"
+			],
+			[
+				"carouse",
+				"carousel-item\t main.css"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ferme",
+				"ferment\t(index.html)"
+			],
+			[
+				"bacg",
+				"background-image"
+			],
+			[
+				"dl",
+				"d-lg-inline\t main.css"
+			],
+			[
+				"d-m",
+				"d-md-inline\t main.css"
+			],
+			[
+				"bas",
+				"background-size"
+			],
+			[
+				"ca",
+				"carousel\t main.css"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"con",
+				"container-fluid\t main.css"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"ml",
+				"ml-2\t main.css"
+			],
+			[
+				"pos",
+				"position-absolute\t main.css"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"cap",
+				"caps-spaced"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"bu",
+				"button-base\t app.scss"
+			],
+			[
+				"opac",
+				"opacity"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"nav",
+				"nav-link\t main.css"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"imp",
+				"import\t@import"
+			],
+			[
+				"mix",
+				"mixin\t@mixin"
+			],
+			[
+				"fun",
+				"fun\t@function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/VU",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/VU/html"
+	],
+	"file_history":
+	[
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/css/scss/app.scss",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/header.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/index.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/css/scss/_variables.scss",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/css/scss/main.scss",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/gulpfile.js",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/js/main.js",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/base.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/js/app.js",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/head.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/footer.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/build/index.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/app/css/scss/_mixins.scss",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Whamisa/html/build/js/main.js",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Library/Application Support/Sublime Text 3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/app/css/scss/main.scss",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/app/css/scss/app.scss",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/app/css/fotorama.css",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/app/index.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/app/header.html",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/Prom Tissue/prom-tissue.sublime-project",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/package.json",
+		"/Volumes/Mac late 2008/Users/Sada-Mac/Documents/work/test-gulp-global/gulpfile.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "vu.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/work/Kinamania/html-beta/kinamania.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

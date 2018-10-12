@@ -2,11 +2,30 @@
  * Created by Andrey on 24.05.2017.
  */
 
-
 //BG images
+// Fill-Box
 $(document).ready(function () {
+	(function ($, window, document) {
+		$.fn.fillBox = function () {
+			this.each(function () {
+				var el = $(this),
+				src = el.attr('src'),
+				parent = el.parent();
+				parent.addClass('filled');
+				parent.css({
+					'background-image': 'url(' + src + ')',
+					'background-size': 'cover',
+					'background-position': 'center'
+				});
+				el.hide();
+			});
+		};
+	}(jQuery, window, document));
 
-    //Smooth scroll
+	$('.fill-box').fillBox();
+
+
+	//Smooth scroll
     $('a[href^="#"]').bind('click.smoothscroll', function (e) {
         e.preventDefault();
 
@@ -20,9 +39,6 @@ $(document).ready(function () {
         });
     });
 
-    //BG Images
-    $('.fill-box').fillBox();
-
 
     //Parallax
     $(function() {
@@ -31,12 +47,9 @@ $(document).ready(function () {
 
         // .main.faq
         new ScrollMagic.Scene({triggerElement: "#wins"})
-            .setTween("#wins > .bcg", {y: "40%", ease: Linear.easeNone})
+        .setTween("#wins > .bcg", {y: "40%", ease: Linear.easeNone})
                 //.addIndicators()
-            .addTo(controller);
+                .addTo(controller);
 
-    });
-
-
+            });
 });
-

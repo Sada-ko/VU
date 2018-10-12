@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cde53766-3502-4f76-8967-60f26e2aef47" name="VU-ftp" url="http://vh76.timeweb.ru">
+        <fileTransfer host="vh76.timeweb.ru" port="21" password="df98df9adfd0dfc3dfccdf9cdfc5dff9df9ddfc8df9edf9f" username="cf16799">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

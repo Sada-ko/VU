@@ -1,0 +1,346 @@
+// @import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400i&subset=cyrillic');
+// @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&subset=cyrillic');
+// @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&subset=cyrillic');
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 330px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #110016;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+}
+
+.h1, .h2,
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, .h1{
+    font-size: 4rem;
+}
+
+.h2, h2 {
+    font-size: 3rem;
+}
+
+i{
+    color: rgba(120, 43, 144, 1);
+}
+
+a{
+    transition: .2s;
+    color: rgba(106, 106, 106, 1);
+    border-bottom: 1px solid rgba(106, 106, 106, .5);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgba(255, 89, 94, 1);
+    border-bottom: 1px solid rgba(255, 89, 94, .5);
+}
+
+.inverted{
+    color: #ffffff;
+}
+
+i{
+    transition: .2s;
+}
+
+.inverted i,
+.inverted i{
+    color: rgba(228, 179, 99, 1);
+}
+
+.inverted a{
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.inverted a:hover{
+    color: rgba(255, 89, 94, 1);
+    border-bottom: 1px solid rgba(255, 89, 94, .5);
+}
+
+.container-fluid, .navbar{
+    min-width: 970px !important
+}
+
+.bcg{
+    opacity: 1;
+    z-index: 0;
+    background-size: cover !important;
+}
+
+
+
+/*============= Fixed Header =============*/
+.address_head{
+    height: 30px;
+    line-height: 30px;
+    background-color: #000000;
+}
+
+.navbar {
+    margin-top: 30px;
+    &.bg-dark{
+        background-color: rgb(41, 43, 44) !important;
+    }
+}
+
+.navbar-brand{
+    width: 250px;
+    a{
+        border: none;
+        &:hover{
+            opacity: .5;
+        }
+    }
+}
+
+.position_absolute{
+    position: absolute;
+}
+
+.fixed-top {
+    min-width: 970px;
+}
+
+.navbar-nav{
+    margin-right: -0.5rem;
+}
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container-fluid {
+  padding: 86px 15px 0;
+}
+
+.footer > .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+
+
+
+
+/*========== Main Slogan =========*/
+.main_slogan{
+    background-image: url("../img/lawer_1.jpg");
+    background-position: left bottom !important;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.main_slogan_text {
+    top: 120px;
+}
+
+.main_slogan_text .h1::after{
+    /*display: inline-block;
+    content: "";
+    background-color: rgba(228, 179, 99, 1);
+    height: 5px;
+    width: 250px;*/
+}
+
+.main_slogan hr{
+    height: 5px;
+    width: 250px;
+    border-width: 5px;
+    border-color: rgba(228, 179, 99, 1);
+}
+
+.about_lead{
+    height: 180px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.about_lead .text{
+    bottom: 0;
+    max-width: 970px;
+}
+
+.blurred_bg{
+    background-image: url("../img/lawer_1.jpg");
+    background-position: left bottom !important;
+    background-size: cover;
+    filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+}
+
+.white_bg {
+    background-color: white;
+    opacity: 0.2;
+}
+
+
+
+/*======== About =========*/
+.about .row div{
+    background-color: #f0f0f0;
+    min-height: 400px;
+}
+
+.about{
+    color: #6A6A6A;
+}
+
+
+/*=========== Points ===========*/
+.point-pic{
+    width: 80px;
+    height: 100px;
+    /*background-color: gray;*/
+}
+
+.point{
+    width: 200px;
+}
+
+.container{
+    &.base{
+        padding-top: 200px;
+        max-width: 800px;
+    }
+}
+
+
+
+/*============== Wins ============*/
+.wins{
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wins .bcg {
+    height: 150%;
+    top: -30%;
+}
+
+.carousel-caption{
+    top: 200px;
+}
+
+.carousel-indicators li {
+    height: 15px;
+    max-width: 15px;
+    border-radius: 10px;
+}
+
+.carousel-indicators li{
+    transition: .2s;
+}
+
+.carousel-indicators .active {
+    background-color: rgba(228, 179, 99, 1);
+}
+
+.wins .h2 {
+    padding-top: 50px;
+    position: absolute;
+}
+
+
+
+/*======= Callback =======*/
+.call_back{
+    background-color: #754982;
+    min-height: 30px;
+}
+
+.call_back input:hover,
+.call_back input:focus {
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.3);
+}
+
+.call_back .btn-primary {
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.call_back .btn-primary:hover{
+    background-color: rgba(228, 179, 99, 1);
+}
+
+
+
+/*============== Contacts ============*/
+.contacts{
+    min-width: 200px;
+    color: #6a6a6a;
+}
+
+
+/*============== Sticky Footer ============*/
+.footer {
+    background-image: url("../img/lawyer-handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 330px;
+    background-color: #f5f5f5;
+}
+
+.footer .container-fluid{
+    position: relative;
+}
+
+.footer .telephone a{
+    color: rgba(228, 179, 99, 1);
+}
+
+.footer .telephone a:hover{
+    color: rgba(255, 89, 94, 1);
+}
+
+.footer .blurred_bg{
+    background-image: url("../img/lawyer-handshake.jpg");
+}
+
+.footer .social a,
+.footer .social a i{
+    color: #ffffff;
+}
+
+.footer .social a:hover .fa,
+.footer .social a:hover{
+    color: rgba(255, 89, 94, 1);
+}
+
+.footer .about_lead {
+    height: 50px;
+}
