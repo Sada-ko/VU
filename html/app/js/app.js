@@ -26,19 +26,20 @@ $(document).ready(function () {
 
 
 	//Smooth scroll
-    $('a[href^="#"]').bind('click.smoothscroll', function (e) {
-        e.preventDefault();
+	$('a[href^="#"]').bind('click.smoothscroll', function (e) {
+		e.preventDefault();
 
-        var target = this.hash,
-            $target = $(target);
+		var target = this.hash,
+		$target = $(target);
 
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 500, 'swing', function () {
-            window.location.hash = target;
-        });
-    });
+		$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+		}, 500, 'swing', function () {
+			window.location.hash = target;
+		});
+	});
 
+	// $('.scroll-content').scrollspy({ target: '#navbarMain' })
 
     //Parallax
     $(function() {
@@ -52,4 +53,13 @@ $(document).ready(function () {
                 .addTo(controller);
 
             });
+
+    // TYPOGRAF
+    $(document).ready(function () {
+    	var tp = new Typograf({locale: ['ru', 'en-US']});
+    	$( ".typographed" ).each(function() {
+    		$(this).html(tp.execute($(this).html()));
+    	});
+    });
+    
 });

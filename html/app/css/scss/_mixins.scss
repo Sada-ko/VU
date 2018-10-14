@@ -1,0 +1,94 @@
+// Links
+@mixin link-style($link-color, $link-hover-color) {
+	text-decoration: none;
+	color: $link-color;
+	border-bottom: 1px solid transparentize($link-color, .7);
+	transition-duration: .33s;
+	transition-property: border-bottom,border-color,background,color,fill;
+	transition-timing-function: ease-out;
+
+	&.dotted{
+		border-bottom-style: dotted !important;
+	}
+
+	&:hover {
+		color: $link-hover-color;
+		border-bottom-color: transparentize($link-hover-color, .7) !important;
+		text-decoration: none;
+		transition: none;
+	}
+
+	&.btn, &.btn:hover {
+		border: none;
+	}
+
+//Серые ссылки
+& .text-muted {
+	border-bottom-color: transparentize($text-muted, .3) !important;
+}
+
+&:active {
+	color: $link-active-color;
+	border-bottom-color: transparentize($link-active-color, .4);
+}
+
+&:focus{
+	color: $link-color;
+}
+
+&.disabled, .disabled & {
+	border: none;
+	cursor: default;
+	&:hover {
+		color: $text-muted;
+	}
+}
+
+&.active, .active > &, &.show > a {
+  // &.active, .active > &, .show > & {
+  	// cursor: default;
+    // font-weight: bold;
+    border: none;
+    color: $red;
+}
+}
+
+@mixin inside-link-style($link-color, $link-hover-color) {
+	text-decoration: none;
+	color: $link-color;
+	border: none;
+	transition-duration:  .33s;
+	transition-property: border-bottom,border-color,background,color,fill;
+	transition-timing-function: ease-out;
+
+	span {
+		border-bottom: 1px solid transparentize($link-color, .7);
+		transition-duration:  .33s;
+		transition-property: border-bottom,border-color,background,color,fill;
+		transition-timing-function: ease-out;
+		&.text-muted {
+			border-bottom-color: transparentize($text-muted, .7);
+		}
+	}
+	&.dotted{
+		span {
+			border-bottom-style: dotted !important;
+		}
+	}
+	&:hover {
+		transition: none;
+		color: $link-hover-color !important;
+		text-decoration: none;
+		span {
+			transition: none;
+			color: $link-hover-color !important;
+			border-bottom-color: transparentize($link-hover-color, .7) !important;
+		}
+	}
+	&:active {
+		color: $link-active-color;
+		span {
+			border-bottom-color: transparentize($link-hover-color, .4);
+		}
+	}
+}
