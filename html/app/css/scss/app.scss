@@ -2,7 +2,7 @@
 // @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&subset=cyrillic');
 // @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic');
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:800&subset=cyrillic');
 
 /* Sticky footer styles
@@ -40,7 +40,7 @@ h1, .h1{
 }
 
 .h2, h2 {
-	font-size: 3rem;
+	font-size: 2.25rem;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -71,10 +71,17 @@ i{
 	color: $purple;
 }
 
+b, strong {
+    font-weight: bold;
+}
+
 a{
 	@include link-style($link-color, $link-hover-color);
 	&.inside {
 		@include inside-link-style($link-color, $link-hover-color);
+	}
+	.inverted &{
+		@include link-style(white, $link-hover-color);
 	}
 }
 
