@@ -67,12 +67,21 @@ h1 + h2, h2 + h3, h3 + h4, h4 + h5 {
 	margin-top: 0;
 }
 
+h1 + h2, h1 + h3{
+	margin-top: -1rem;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
 i{
 	color: $purple;
 }
 
 b, strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 a{
@@ -110,7 +119,10 @@ i{
 
 ul, ol {
 	li {
-		margin-bottom: .5em;
+		margin-bottom: .75em;
+		p{
+			margin-bottom: .5em;
+		}
 	}
 }
 
@@ -175,6 +187,15 @@ ul, ol {
 	padding-bottom: 1.25rem;
 }
 
+.table td, .table th {
+	border-top: none;
+	padding: 1rem .6rem .25rem .6rem;
+}
+
+.table thead th {
+	padding-top: 2.5rem;
+	vertical-align: top;
+}
 
 
 
